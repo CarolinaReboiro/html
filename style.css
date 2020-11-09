@@ -1,0 +1,19 @@
+.form{
+	background-color: #E8F8F5;
+	line-height: 2.0em;
+	width: 850px;
+	
+}
+
+h1{
+	background-color: #c8e5f8;
+}
+
+body{
+	width: 850px;
+	border: 3px solid #d0d0d0;
+	margin-left: 30px;
+	padding: 10px;
+	background-color: rgb(250, 252, 251) ; 
+
+}
