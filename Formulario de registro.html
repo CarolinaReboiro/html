@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Formulario de registro</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1>Formulario de registro</h1>
+	
+	<form class="form">
+		<div>
+			<label for="nombre">Nombre:</label>
+			<input type="text" id="nombre" name="nombre">
+		</div>
+
+		<div>
+			<label for="apellido">Apellido:</label>
+			<input type="text" id="apellido" name="apellido">
+        </div>
+        <div>
+			<label for="Sexo">Sexo:</label>
+			<input type="radio" name="Sexo" value="Mujer"> Mujer
+			<input type="radio" name="Sexo" value="hombre"> Hombre
+			<input type="radio" name="Sexo" value="otro"> Otro
+        </div>
+        <div>
+			<label for="correo">Correo:</label>
+			<input type="text" id="correo" name="correo">
+        </div>
+        <div>
+			<label for="ciudad">Ciudad:</label>
+			
+			<select name="ciudad" id="ciudad">
+				<option value="Rosario" selected>Rosario</option>
+				<option value="Villa Gobernador Gálvez">Villa Gobernador Gálvez</option>
+				<option value="Arroyo Seco">Arroyo Seco</option>
+				<option value="Villa Constitución">Villa Constitución</option>
+			</select>
+        </div>
+        <div>
+			<label for="Descripción">Descripción:</label>
+			<textarea name="Descripción" id="Descripción"></textarea>
+        </div>
+        <div>
+            <input type="checkbox" name="Deseo recibir" id="Deseo recibir"/>
+            <label for="Deseo recibir">Deseo recibir información sobre novedades y ofertas</label> <br>
+            <input type="checkbox" name="Declaro" id="Declaro"/>
+            <label for="Declaro">Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos</label>
+        </div>
+        <div>
+			<input type="submit" name="enviar" value="Enviar">
+		</div>
+
+
